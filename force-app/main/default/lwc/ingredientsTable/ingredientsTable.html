@@ -1,0 +1,44 @@
+<template>
+  <div class="slds-grid slds-grid_vertical">
+    <div class="slds-scrollable slds-grow">
+      <div class="slds-scrollable_none">
+        <table
+          aria-multiselectable="true"
+          class="slds-table slds-no-row-hover slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols"
+          role="grid"
+        >
+          <thead>
+            <tr class="slds-line-height_reset">
+              <th>Quantity</th>
+              <th>Measure</th>
+              <th>Item</th>
+            </tr>
+          </thead>
+          <tbody>
+            <template for:each={iList2} for:item="i" for:index="index">
+              <tr
+                key={i.item}
+                onchange={Change}
+                draggable="true"
+                ondrop={Drop}
+                ondragstart={DragStart}
+                ondragover={DragOver}
+                title={index}
+              >
+                <td role="gridcell">
+                  <div class="slds-cell-wrap" title={index}>{i.quantity}</div>
+                </td>
+                <td role="gridcell">
+                  <div class="slds-cell-wrap" title={index}>{i.measure}</div>
+                </td>
+                <td role="gridcell">
+                  <div class="slds-cell-wrap" title={index}>{i.item}</div>
+                </td>
+              </tr>
+            </template>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</template>

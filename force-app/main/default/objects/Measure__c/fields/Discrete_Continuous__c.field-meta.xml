@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discrete_Continuous__c</fullName>
+    <description>Discrete or Continuous Measure (dependent on Solid/Liquid Measure)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Discrete or Continuous Measure (dependent on Solid/Liquid Measure)</inlineHelpText>
+    <label>Discrete or Continuous Measure</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Solid_or_Liquid__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Continuous</fullName>
+                <default>true</default>
+                <label>Continuous</label>
+            </value>
+            <value>
+                <fullName>Discrete</fullName>
+                <default>false</default>
+                <label>Discrete</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Solid</controllingFieldValue>
+            <controllingFieldValue>Liquid</controllingFieldValue>
+            <valueName>Continuous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solid</controllingFieldValue>
+            <valueName>Discrete</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_to_grams__c</fullName>
+    <description>(Solid measure) conversion of a single unit of this measure to grams</description>
+    <externalId>false</externalId>
+    <inlineHelpText>(Solid measure) conversion of a single unit of this measure to grams</inlineHelpText>
+    <label>Conversion to grams</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edible</fullName>
+    <active>true</active>
+    <description>Edible Kitchen Items (useable in recipes)</description>
+    <label>Edible</label>
+    <picklistValues>
+        <picklist>Food_Group__c</picklist>
+        <values>
+            <fullName>Dairy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fats %26 Oils</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fruit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meat %26 Eggs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sugar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vegetable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Macronutrient__c</picklist>
+        <values>
+            <fullName>Carb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protein</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UniqueName__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Unique Name of this Kitchen Item (used by Recipe Controller to create ingredient records)</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Unique Name of this Kitchen Item (used by Recipe Controller to create ingredient records)</inlineHelpText>
+    <label>UniqueName</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

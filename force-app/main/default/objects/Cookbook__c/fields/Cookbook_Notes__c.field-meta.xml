@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cookbook_Notes__c</fullName>
+    <description>Cookbook Notes</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Cookbook Notes</inlineHelpText>
+    <label>Cookbook Notes</label>
+    <length>5000</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>13</visibleLines>
+</CustomField>

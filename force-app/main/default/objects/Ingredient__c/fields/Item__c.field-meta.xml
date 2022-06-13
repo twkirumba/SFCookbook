@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item__c</fullName>
+    <description>Kitchen Item that this Ingredient consists of</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Kitchen Item that this Ingredient consists of</inlineHelpText>
+    <label>Item</label>
+    <referenceTo>Kitchen_Item__c</referenceTo>
+    <relationshipLabel>Ingredients</relationshipLabel>
+    <relationshipName>Ingredients</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

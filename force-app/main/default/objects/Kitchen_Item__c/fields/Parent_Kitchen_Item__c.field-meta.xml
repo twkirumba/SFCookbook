@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Kitchen_Item__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This relationship allows the user to specify kitchen item categories</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This relationship allows the user to specify kitchen item categories</inlineHelpText>
+    <label>Parent Kitchen Item</label>
+    <referenceTo>Kitchen_Item__c</referenceTo>
+    <relationshipLabel>Child Kitchen Items</relationshipLabel>
+    <relationshipName>Child_Kitchen_Items</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

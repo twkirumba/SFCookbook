@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Food_Group__c</fullName>
+    <description>Primary Food Group (Carb, Protein, Fat)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Primary Food Group (Carb, Protein, Fat)</inlineHelpText>
+    <label>Food Group</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Grain</fullName>
+                <default>false</default>
+                <label>Grain</label>
+            </value>
+            <value>
+                <fullName>Starch</fullName>
+                <default>false</default>
+                <label>Starch</label>
+            </value>
+            <value>
+                <fullName>Vegetable</fullName>
+                <default>false</default>
+                <label>Vegetable</label>
+            </value>
+            <value>
+                <fullName>Fruit</fullName>
+                <default>false</default>
+                <label>Fruit</label>
+            </value>
+            <value>
+                <fullName>Meat &amp; Eggs</fullName>
+                <default>false</default>
+                <label>Meat &amp; Eggs</label>
+            </value>
+            <value>
+                <fullName>Dairy</fullName>
+                <default>false</default>
+                <label>Dairy</label>
+            </value>
+            <value>
+                <fullName>Fats &amp; Oils</fullName>
+                <default>false</default>
+                <label>Fats &amp; Oils</label>
+            </value>
+            <value>
+                <fullName>Sugar</fullName>
+                <default>false</default>
+                <label>Sugar</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ingredient_Summary__c</fullName>
+    <description>Text formula: Quantity, Measure &amp; Item e.g. 1 tsp sugar</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Quantity__c) + &quot; &quot; +  Measure__r.UniqueName__c + &quot; &quot; + Item__r.UniqueName__c</formula>
+    <inlineHelpText>Text formula: Quantity, Measure &amp; Item e.g. 1 tsp sugar</inlineHelpText>
+    <label>Ingredient Summary</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

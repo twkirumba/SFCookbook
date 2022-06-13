@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Macronutrient__c</fullName>
+    <description>Macronutrient</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Macronutrient</inlineHelpText>
+    <label>Macronutrient</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fat</fullName>
+                <default>false</default>
+                <label>Fat</label>
+            </value>
+            <value>
+                <fullName>Carb</fullName>
+                <default>false</default>
+                <label>Carb</label>
+            </value>
+            <value>
+                <fullName>Protein</fullName>
+                <default>false</default>
+                <label>Protein</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

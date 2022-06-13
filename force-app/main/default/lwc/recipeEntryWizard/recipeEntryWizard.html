@@ -1,0 +1,48 @@
+<template>
+  <lightning-card title="Recipe Quick Entry Wizard">
+    <lightning-card>
+      <!-- <lightning-datatable
+                key-field=""
+                data={ingredientOutputList}>
+            </lightning-datatable> -->
+      <output
+        >Test the quick entry wizard by entering an ingredient in any of the
+        following formats:
+        <ul style="list-style-type: circle" class="tab">
+          <li>Banana</li>
+          <li>One <span>🍌</span></li>
+          <li>1 cup <span>🍌</span>s</li>
+          <li>1 cup of <span>🍌</span>s</li>
+          <li>a <span>🍌</span></li>
+          <li>cup <span>🍌</span>s</li>
+        </ul>
+        <br />
+        All of the options above will be parsed into <br/>
+        <b>"[Quantity: 1, Measure: Cup, Item: banana]"</b>
+      </output>
+      
+    </lightning-card>
+    <lightning-card title="Recipe Details" 
+      >
+      <lightning-input label="Recipe Name" name="name" onchange={handleRecipeChange}></lightning-input>
+      <lightning-input label="Recipe Description" name="description" onchange={handleRecipeChange}></lightning-input>
+      <lightning-input label="Recipe ServingSize" name="servingSize" type="number" onchange={handleRecipeChange}></lightning-input>
+    </lightning-card>
+    <lightning-card title="Ingredient List (Output)">
+      <c-ingredients-table class="iTable" ingredients-list={ingredientList}
+        onsuccess={handleSaveRecipeComplete}
+        onfail={handleSaveRecipeFail}>
+      </c-ingredients-table>
+      <lightning-input
+        type="text"
+        onkeypress={handleAddRow}
+        label="Enter your ingredients one at a time and hit 'Enter'"
+        style="font-weight: 2;"
+      ></lightning-input>
+      <template if:true={inputError}>
+        <p style="color: red">Input Error: {inputError}</p>
+      </template>
+    </lightning-card>
+      <lightning-button variant="brand" label="Save Recipe" title="Save Recipe and Refresh the Component" onclick={handleSaveRecipe} class="slds-m-left_x-small"></lightning-button>
+  </lightning-card>
+</template>

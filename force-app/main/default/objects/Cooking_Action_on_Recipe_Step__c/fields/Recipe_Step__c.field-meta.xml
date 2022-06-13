@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recipe_Step__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Recipe Step</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Recipe Step</inlineHelpText>
+    <label>Recipe Step</label>
+    <referenceTo>Recipe_Step__c</referenceTo>
+    <relationshipLabel>Cooking Actions on Recipe Steps</relationshipLabel>
+    <relationshipName>Cooking_Actions_on_Recipe_Steps</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

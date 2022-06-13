@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ingredient_Notes__c</fullName>
+    <description>Any additional notes about this ingredient (e.g. preferred source or alternatives)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Any additional notes about this ingredient (e.g. preferred source or alternatives)</inlineHelpText>
+    <label>Ingredient Notes</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

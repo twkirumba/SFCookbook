@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cookbook__c</fullName>
+    <description>Cookbook</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Cookbook</inlineHelpText>
+    <label>Cookbook</label>
+    <referenceTo>Cookbook__c</referenceTo>
+    <relationshipLabel>Recipes on Cookbooks</relationshipLabel>
+    <relationshipName>Recipes_on_Cookbooks</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
