@@ -3,6 +3,9 @@
  */
 
 public class WordsToNumbers {
+  
+  public static string apiKey = ''; //replace with your api Key for the Words2Numbers app on RapidAPI.com
+  
   public static Decimal wordsToNumbers(String s) {
     HttpRequest request = getWordsToNumberRequest(s);
     HttpResponse response = getWordsToNumbersResponse(request);
@@ -21,8 +24,7 @@ public class WordsToNumbers {
     request.setHeader('X-RapidAPI-Host', 'words-to-numbers.p.rapidapi.com');
     request.setHeader(
       'X-RapidAPI-Key',
-      '2055a6605cmsh5b4526bf58f815fp151336jsnee99c393feda'
-    );
+      apiKey);
     request.setMethod('GET');
     request.setTimeout(10000);
     return request;
